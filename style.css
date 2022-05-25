@@ -181,3 +181,15 @@ a {
     grid-template-rows: 25%;
     gap: 30% 5%;
 }
+
+/* Transformaciones */
+
+.imgIndex:hover {
+    transform: scale(160%) translateX(15%);
+    transition: all 1.25s;
+}
+
+.imgGal:hover {
+    transform: scale(160%) translateX(15%);
+    transition: all 1.25s;
+}
