@@ -174,14 +174,10 @@ a {
 
 /* grid galerias */
 
-.gridgalerias{
+.galcontainer {
     margin-left: 5%;
     width: 75%;
     height: 75%;
-    display: grid;
-    grid-template-columns: 25% 25% 25%;
-    grid-template-rows: 25%;
-    gap: 30% 5%;
 }
 
 /* Transformaciones */
