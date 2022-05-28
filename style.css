@@ -25,7 +25,7 @@ body {
 /* estilo menú navegable*/
                          /* FLEX PARA EL MENÚ*/
 #nav-container {
-    margin-left: 50%;
+    margin-left: 55%;
     width: 50%;
     display: flex;
     justify-content: end;
@@ -35,7 +35,7 @@ body {
     width: 90%;
     display: flex;
     justify-content: space-evenly;
-}
+} 
 
 #nav-menu li {
     list-style: none;
@@ -44,9 +44,9 @@ body {
 .navimg {
     width: 90%;
 }
-a:link, a:visited {
+/* a:link, a:visited {
     color: black;
-}
+} */
 
 a {
     text-decoration: none;
