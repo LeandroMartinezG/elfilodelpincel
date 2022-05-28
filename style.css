@@ -191,3 +191,8 @@ a {
     transform: scale(160%) translateX(15%);
     transition: all 1.25s;
 }
+
+.navimg:hover {
+    transform: scale(120%) translateX(15%);
+    transition: all 1s;
+}
