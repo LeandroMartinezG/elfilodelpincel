@@ -44,9 +44,6 @@ body {
 .navimg {
     width: 90%;
 }
-/* a:link, a:visited {
-    color: black;
-} */
 
 a {
     text-decoration: none;
@@ -101,17 +98,13 @@ a {
     margin-left: 60px;
 }
 
-/* estilo imgs */  /* GRID PARA IMÁGENES*/
+/* estilo imgs */ 
 
 .trabDelMes-container {
     margin-left: 5%;
     margin-bottom: 2%;
     width: 75%;
     height: 75%;
-    display: grid;
-    grid-template-columns: 25% 25% 25%;
-    grid-template-rows: 25% 25%;
-    gap: 30% 5%; 
 }
 
 
