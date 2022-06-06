@@ -1,5 +1,6 @@
 /* estilo del body*/
 body {
+    width: 100%;
     background-image: url("varios/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,7 +11,8 @@ body {
 .headercontainer {
     width: 100%;
     border: 1px solid black;
-    background-color: black;
+    
+    
 }
 
 .banner {
@@ -19,13 +21,18 @@ body {
 }
 
 .bannerstyle {
-    width: 100%;
+    width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
 }
 
 /* estilo menú navegable*/
                          /* FLEX PARA EL MENÚ*/
 #nav-container {
-    margin-left: 55%;
+    
+    margin-left: 50%;
     width: 50%;
     display: flex;
     justify-content: end;
@@ -211,3 +218,17 @@ a {
     transform: scale(213%) translateX(15%) translateY(26.5%);
     transition: all 1.25s;
 }
+
+/* publicidad style*/
+.contenedor-publicidad {
+    width: 25%;
+    position: absolute;
+    right: 0;
+    top: 60%;
+    padding-left: 5%;
+}
+
+.img-aside {
+    width: 70%;
+}
+
