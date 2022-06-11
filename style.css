@@ -134,7 +134,8 @@ a {
 }
 
 .artEnAccIframe {
-    max-width: 50%;
+    max-width: 100%;
+    max-height: 90%;
 }
 
 /* estilos en galerías y comisionistas */
@@ -232,3 +233,19 @@ a {
     width: 70%;
 }
 
+/* mediaq */
+
+@media screen and (max-width: 990px) {
+    .contenedor-publicidad {
+      display: none;
+    }
+    .nav-container {
+        display: none;
+    }
+  }
+
+  @media screen and (min-width: 990px) {
+    .navbar-mobile {
+      display: none;
+    }
+  }
