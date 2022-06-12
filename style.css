@@ -59,13 +59,10 @@ a {
 
 /* estilo boton para ir al top*/
 #iralcielo {
-    padding: 0.5% 0.7%;
-    margin-left: 47.5%;
-    border: 0.2em dotted rgb(22, 115, 192);
-    color: rgb(16, 84, 129);
-    background-color: white;
-    text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
 
 /* estilos para el footer */
@@ -177,7 +174,7 @@ a {
 }
 
 .comilogo {
-    width: 2%
+    width: 3%
 }
 
 .imglogocomi {
