@@ -1,0 +1,42 @@
+/* estilos header en todos los HTML */
+.headercontainer {
+	width: 100%;
+	border: 1px solid black;
+}
+.banner {
+	width: 100%;
+	background-color: black;
+}
+.bannerstyle {
+	width: 75%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* estilo menú navegable*/
+#nav-container {
+	margin-left: 50%;
+	width: 50%;
+	display: flex;
+	justify-content: end;
+}
+#nav-menu {
+	width: 90%;
+	display: flex;
+	justify-content: space-evenly;
+	li {
+		list-style: none;
+	}
+}
+.navimg {
+	width: 90%;
+	&:hover {
+		transform: scale(120%);
+		transition: all 1s;
+	}
+}
+a {
+	text-decoration: none;
+}

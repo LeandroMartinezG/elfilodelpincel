@@ -1,11 +1,4 @@
 @charset "UTF-8";
-/* estilo del body*/
-body {
-  width: 100%;
-  background-image: url("varios/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 /* estilos header en todos los HTML */
 .headercontainer {
   width: 100%;
@@ -45,12 +38,11 @@ body {
 a {
   text-decoration: none; }
 
-/* estilo boton para ir al top*/
-#iralcielo {
-  width: 10%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
+body {
+  width: 100%;
+  background-image: url("../varios/background.jpg");
+  background-repeat: repeat;
+  background-size: cover; }
 
 /* estilos para el footer */
 .titlefooter {
@@ -71,44 +63,7 @@ a {
 .logoinsta {
   width: 40%; }
 
-.titlesection {
-  width: 15%;
-  padding-top: 5px;
-  padding-bottom: 2px;
-  margin-top: 20px;
-  margin-right: 1525px;
-  margin-bottom: 20px;
-  margin-left: 60px; }
-
-.trabDelMes-container {
-  margin-left: 5%;
-  margin-bottom: 2%;
-  width: 75%;
-  height: 75%; }
-
-.imgIndex {
-  max-width: 95%;
-  box-shadow: 1px 1px rgba(0, 0, 0, 0.15), 2px 2px rgba(0, 0, 0, 0.15), 4px 4px rgba(0, 0, 0, 0.15), 8px 8px rgba(0, 0, 0, 0.15); }
-  .imgIndex:hover {
-    transform: scale(160%) translateX(15%);
-    transition: all 1.25s; }
-
-.iframe-container {
-  width: 90%;
-  margin: 0% 5% 2% 5%;
-  display: flexbox;
-  justify-content: start; }
-
-.artEnAccIframe {
-  max-width: 100%;
-  max-height: 90%; }
-
-.titlesite {
-  display: block;
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto; }
-
+/* estilo imagenes*/
 .imgGal {
   max-width: 95%;
   margin: 10px;
@@ -141,12 +96,6 @@ a {
   margin: 10px;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.15), 2px 2px rgba(0, 0, 0, 0.15), 4px 4px rgba(0, 0, 0, 0.15), 8px 8px rgba(0, 0, 0, 0.15); }
 
-/* grid galerias */
-.galcontainer {
-  margin-left: 5%;
-  width: 75%;
-  height: 75%; }
-
 /* publicidad style*/
 .contenedor-publicidad {
   width: 25%;
@@ -157,6 +106,67 @@ a {
 
 .img-aside {
   width: 70%; }
+
+.titlesection {
+  width: 15%;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px; }
+
+.titlesite {
+  display: block;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.trabDelMes-container {
+  margin-left: 5%;
+  margin-bottom: 2%;
+  width: 75%;
+  height: 75%; }
+
+.iframe-container {
+  width: 90%;
+  margin: 0% 5% 2% 5%;
+  display: flexbox;
+  justify-content: start; }
+
+/* grid galerias */
+.galcontainer {
+  margin-left: 5%;
+  width: 75%;
+  height: 75%; }
+
+.trabDelMes-container, .iframe-container, .galcontainer {
+  border: 2px solid #9ac746;
+  padding: 1%;
+  border-radius: 5px; }
+
+.altborder1 {
+  border: 3px;
+  border-style: purple;
+  border-color: inset;
+  border-radius: 10px; }
+
+.altborder2 {
+  border: 6px;
+  border-style: #8ac766;
+  border-color: groove;
+  border-radius: 7px; }
+
+/* estilo boton para ir al top*/
+#iralcielo {
+  width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* tamaño en iframes*/
+.artEnAccIframe {
+  max-width: 100%;
+  max-height: 90%; }
 
 /* mediaq */
 @media screen and (max-width: 990px) {

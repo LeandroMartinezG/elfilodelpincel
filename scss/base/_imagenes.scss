@@ -1,0 +1,20 @@
+/* estilo imagenes*/
+.imgGal {
+	max-width: 95%;
+	margin: 10px;
+	box-shadow: 1px 1px rgba(0,0,0,0.15), 2px 2px rgba(0,0,0,0.15), 4px 4px rgba(0,0,0,0.15), 8px 8px rgba(0,0,0,0.15);
+	&:hover {
+		transform: scale(160%) translateX(15%);
+		transition: all 1.25s;
+	}
+}
+/* Comisionistas*/
+.imgComi {
+	max-width: 95%;
+	margin: 10px;
+	box-shadow: 1px 1px rgba(0,0,0,0.15), 2px 2px rgba(0,0,0,0.15), 4px 4px rgba(0,0,0,0.15), 8px 8px rgba(0,0,0,0.15);
+	&:hover {
+		transform: scale(213%) translateX(15%) translateY(26.5%);
+		transition: all 1.25s;
+	}
+}

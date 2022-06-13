@@ -1,0 +1,23 @@
+.trabDelMes-container {
+	margin-left: 5%;
+	margin-bottom: 2%;
+	width: 75%;
+	height: 75%;
+	@extend %bordes;
+}
+
+.iframe-container {
+	width: 90%;
+	margin: 0% 5% 2% 5%;
+	display: flexbox;
+	justify-content: start;
+	@extend %bordes;
+}
+
+/* grid galerias */
+.galcontainer {
+	margin-left: 5%;
+	width: 75%;
+	height: 75%;
+	@extend %bordes;
+}

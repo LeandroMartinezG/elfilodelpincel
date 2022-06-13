@@ -1,0 +1,14 @@
+@mixin otroborde($size, $colores, $estilo, $radio) {
+    border: $size;
+    border-style: $estilo;
+    border-color: $colores;
+    border-radius: $radio;
+}
+
+.altborder1 {
+    @include otroborde(3px, inset, purple, 10px)
+}
+
+.altborder2 {
+    @include otroborde(6px, groove, rgb(138, 199, 102), 7px)
+}
