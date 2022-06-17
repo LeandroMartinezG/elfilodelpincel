@@ -178,3 +178,7 @@ body {
 @media screen and (min-width: 990px) {
   .navbar-mobile {
     display: none; } }
+
+.disclaimer {
+  display: none;
+}
