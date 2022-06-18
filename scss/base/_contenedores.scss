@@ -6,6 +6,15 @@
 	@extend %bordes;
 }
 
+.trabDelMes-containermobile, .galcontainermobile {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+	width: 75%;
+	height: 75%;
+}
+
 .iframe-container {
 	width: 90%;
 	margin: 0% 5% 2% 5%;
@@ -20,4 +29,12 @@
 	width: 75%;
 	height: 75%;
 	@extend %bordes;
+}
+
+/*iframe mobile*/
+.iframe-iframe-containermobile {
+	width: 50%;
+	margin: 0% 5% 2% 5%;
+	display: flexbox;
+	justify-content: center;
 }

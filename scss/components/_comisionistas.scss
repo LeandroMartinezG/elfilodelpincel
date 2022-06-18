@@ -1,15 +1,23 @@
 /* posicionamiento logos de contacto */
-.logoComiInsta {
+.logoComiInsta, .logoComiInstamobile {
 	margin-left: 6%;
 }
-.logoComiWs {
+.logoComiWs, .logoComiWsmobile {
 	margin-left: 0.5%;
 }
+
 .comilogo {
 	width: 3%;
 }
+
+.comilogomobile {
+	margin-top: 5%;
+	width: 45%;
+}
+
 .imglogocomi {
 	max-width: 95%;
 	margin: 10px;
 	box-shadow: 1px 1px rgba(0,0,0,0.15), 2px 2px rgba(0,0,0,0.15), 4px 4px rgba(0,0,0,0.15), 8px 8px rgba(0,0,0,0.15);
 }
+
